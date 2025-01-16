@@ -10,24 +10,30 @@ html {
 }
 
 @font-face {
-    font-family: 'Roboto-Bold'; /* Уникальное имя для шрифта */
-    src: url('../fonts/Roboto-Bold.ttf') format('ttf'); /* 700 */
-    font-weight: 700; 
-    font-style: normal; 
+    font-family: 'Roboto-Bold', sans-serif;
+    /* Уникальное имя для шрифта */
+    src: url('../fonts/Roboto-Bold.ttf') format('ttf');
+    /* 700 */
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Medium'; /* Уникальное имя для шрифта */
-    src: url('../fonts/Roboto-Medium.ttf') format('ttf'); /* 500 */
-    font-weight: 500; 
-    font-style: normal; 
+    font-family: 'Roboto-Medium', sans-serif;
+    /* Уникальное имя для шрифта */
+    src: url('../fonts/Roboto-Medium.ttf') format('ttf');
+    /* 500 */
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Regular'; /* Уникальное имя для шрифта */
-    src:  url('../fonts/Roboto-Regular.ttf') format('ttf'); /* 400 */
-    font-weight: 400; 
-    font-style: normal; 
+    font-family: 'Roboto-Regular', sans-serif;
+    /* Уникальное имя для шрифта */
+    src: url('../fonts/Roboto-Regular.ttf') format('ttf');
+    /* 400 */
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -35,23 +41,92 @@ body {
 }
 
 /*header*/
-.title {
+.container {
+    max-width: 1440px;
+    width: 100%;
 }
+
+.container_features {
+    max-width: 761px;
+    min-height: 543px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 171px;
+}
+
+.title {}
+
 .about__us {
+    color: #3D4F9F;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
 }
+
 .reading {
+    color: #3D4F9F;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 94px;
 }
+
 .features {
+    display: flex;
+    justify-content: space-between;
 }
+
 .overview {
+    text-align: center;
+    margin: 0;
 }
+
+.overview img{
+    margin-bottom: 29px;
+}
+
 .features__title {
+    color: #4074F8;
+    font-family: 'Roboto-regular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 35px;
 }
+
 .features__opisanie {
+    width: 140px;
+    color: #ADB3CB;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 140px;
 }
+
 .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 337px;
+    gap: 110px;
+    margin-bottom: 173px;
 }
+
 .more {
+    background-color: #FFD7D7;
+    color: #D43F3F;
 }
+
+.btn {
+    width: 113px;
+    height: 43px;
+    border: none;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+}
+
 .started {
+    background-color: #D2E1FF;
+    color: #3A79FF;
 }
