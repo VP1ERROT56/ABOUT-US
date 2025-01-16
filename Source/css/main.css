@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold'; /* Уникальное имя для шрифта */
+    src: url('../fonts/Roboto-Bold.ttf') format('ttf'); /* 700 */
+    font-weight: 700; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Roboto-Medium'; /* Уникальное имя для шрифта */
+    src: url('../fonts/Roboto-Medium.ttf') format('ttf'); /* 500 */
+    font-weight: 500; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Roboto-Regular'; /* Уникальное имя для шрифта */
+    src:  url('../fonts/Roboto-Regular.ttf') format('ttf'); /* 400 */
+    font-weight: 400; 
+    font-style: normal; 
+}
+
+body {
+    font-family: 'Roboto-Medium', sans-serif;
+}
+
+/*header*/
+.title {
+}
+.about__us {
+}
+.reading {
+}
+.features {
+}
+.overview {
+}
+.features__title {
+}
+.features__opisanie {
+}
+.buttons {
+}
+.more {
+}
+.started {
+}
