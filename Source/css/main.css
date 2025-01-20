@@ -46,15 +46,13 @@ body {
     width: 100%;
 }
 
-.container_features {
+.container__features {
     max-width: 761px;
     min-height: 543px;
     width: 100%;
     margin: 0 auto;
     padding-top: 171px;
 }
-
-.title {}
 
 .about__us {
     color: #3D4F9F;
@@ -84,7 +82,7 @@ body {
     margin: 0;
 }
 
-.overview img{
+.overview img {
     margin-bottom: 29px;
 }
 
@@ -131,4 +129,136 @@ body {
     color: #3A79FF;
 }
 
-@media(max-widht:)
+/*stats*/
+
+.container__stats {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #6888FF;
+    padding-right: 90px;
+}
+
+.place {
+    width: 100%;
+    min-height: 342px;
+}
+
+.icon_left {
+    padding-top: 64px;
+    margin: 0 0 23px 0;
+
+}
+
+.icon_left img {
+    width: 65px;
+    height: 66px;
+}
+
+.title__stats {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    width: 92px;
+    height: 57px;
+    margin: 0 0 18px 0;
+}
+
+.opis__left{
+    margin: 0;
+}
+
+.text__stats {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0;
+    width: 260px;
+    text-align: right;
+}
+
+.right {
+    text-align: left;
+    background-color: #E9EFFF;
+    padding-left: 90px;
+}
+
+.icon_right {
+    padding-top: 68px;
+    margin: 0 0 23px 0;
+}
+
+.icon_right img {
+    width: 71px;
+    height: 62px;
+}
+
+.text__stats_right{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0;
+    width: 260px;
+}
+
+.color{
+    color: #5E80FF;
+}
+
+
+/*header*/
+
+@media (max-width: 821px) {
+    .container {
+        max-width: 820px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 631px) {
+    .container {
+        max-width: 630px;
+    }
+
+    .container__features {
+        padding-top: 70px;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        place-items: center;
+    }
+
+    .overview {
+        width: 200px;
+        height: 254px;
+    }
+
+    .features__opisanie {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .reading {
+        margin-bottom: 50px;
+    }
+
+    .buttons {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+}
+
+/*stats*/
