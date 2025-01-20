@@ -10,24 +10,6 @@ html {
 }
 
 @font-face {
-    font-family: 'Roboto-Bold', sans-serif;
-    /* Уникальное имя для шрифта */
-    src: url('../fonts/Roboto-Bold.ttf') format('ttf');
-    /* 700 */
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto-Medium', sans-serif;
-    /* Уникальное имя для шрифта */
-    src: url('../fonts/Roboto-Medium.ttf') format('ttf');
-    /* 500 */
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Roboto-Regular', sans-serif;
     /* Уникальное имя для шрифта */
     src: url('../fonts/Roboto-Regular.ttf') format('ttf');
@@ -188,7 +170,6 @@ body {
 .right {
     display: flex;
     flex-direction: column;
-    align-items: left;
     background-color: #E9EFFF;
     padding-left: 90px;
 }
@@ -241,6 +222,7 @@ body {
     width: 100%;
     min-height: 394px;
     box-shadow: 0px 15px 50px 0px rgb(239, 244, 255);
+    padding-bottom: 20px;
 }
 
 
@@ -255,7 +237,7 @@ body {
 }
 
 .pointer {
-    max-width: 407;
+    max-width: 407px;
     width: 100%;
     max-height: 267px;
     display: grid;
@@ -527,7 +509,7 @@ body {
     }
 
     .pointer {
-        max-width: 452;
+        max-width: 452px;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -542,7 +524,8 @@ body {
         max-height: 267px;
         width: 100%;
         grid-column: 1;
-        grid-row: 1;/ position: relative;
+        grid-row: 1;
+        position: relative;
     }
 
     .two__p {
