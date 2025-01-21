@@ -222,7 +222,7 @@ body {
     width: 100%;
     min-height: 394px;
     box-shadow: 0px 15px 50px 0px rgb(239, 244, 255);
-    padding-bottom: 20px;
+    padding:20px 0 20px 0;
 }
 
 
@@ -306,6 +306,7 @@ body {
     bottom: 0;
     background: linear-gradient(12.99deg, rgba(255, 199, 53, 0.44) 1.916%, rgba(255, 227, 154, 0.93) 1.923%, rgba(255, 159, 90, 0) 68.245%);
     pointer-events: none;
+    border-radius: 5px;
 }
 
 .two__p::before {
@@ -317,6 +318,7 @@ body {
     bottom: 0;
     background: linear-gradient(27.61deg, rgba(255, 53, 53, 0.48) 14.04%, rgba(255, 179, 90, 0) 68.007%);
     pointer-events: none;
+    border-radius: 5px;
 }
 
 .three__p::before {
@@ -328,6 +330,7 @@ body {
     bottom: 0;
     background: linear-gradient(13.50deg, rgba(53, 170, 255, 0.68) 11.615%, rgba(90, 136, 255, 0) 96.871%);
     pointer-events: none;
+    border-radius: 5px;
 }
 
 .reading__blog {
